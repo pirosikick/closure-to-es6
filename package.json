@@ -1,0 +1,32 @@
+{
+  "name": "closure-to-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pirosikick/closure-to-es6.git"
+  },
+  "keywords": [],
+  "author": "Hiroyuki ANAI <pirosikick@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirosikick/closure-to-es6/issues"
+  },
+  "homepage": "https://github.com/pirosikick/closure-to-es6#readme",
+  "dependencies": {
+    "jscodeshift": "^0.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@types/jscodeshift": "^0.7.0",
+    "@types/node": "^13.13.5",
+    "jest": "^26.0.1",
+    "typescript": "^3.8.3"
+  }
+}
